@@ -10,7 +10,7 @@ function HomePage( ) {
 
         <>
             <main className='font-Mulish'>
-                <nav className='flex justify-between px-[3rem] border drop-shadow-lg p-[1rem] items-center'>
+                <nav className='flex justify-between px-[3rem] border drop-shadow-lg items-center'>
                     <div className='flex'>
                         <button className='mx-3 text-[0.9rem] text-[#745895]'>
                             <img src={logo} alt="logo" />
@@ -25,7 +25,7 @@ function HomePage( ) {
                     </div>
                     <div className='flex p-[1rem] items-center'>
                         <button className='mx-3 text-[0.9rem] text-[#745895]'>Sign In</button>
-                        <button className='mx-3 bg-[#40196d] rounded-[1rem] text-white font-bold py-2 px-7 -translate-y-1  '>Get Kuda</button>
+                        <button className='mx-3 bg-[#40196d] rounded-[0.7rem] text-white font-bold py-2 px-7 translate-y-1 duration-700'>Get Kuda</button>
                         <div className='border'>
                            <img src={logo2} alt="logo 2" />
                         </div>
