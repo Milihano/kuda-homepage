@@ -85,7 +85,7 @@ function HomePage( ) {
               </div>
 
               </div>
-              <footer className="ancestor bg-white-500">
+              <footer className="ancestor bg-white-500 mt-[8rem]">
                 <div className="grandparent  w-500 h-600 mx-auto">
                     <div className="parent  w-300 h-300 flex justify-center">
                         <div className="child1  w-100 h-100">
