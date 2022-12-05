@@ -1,11 +1,11 @@
 import React from 'react';
-import Kuda from "../images/kuda.svg"
 import {BiQrScan} from 'react-icons/bi'
 import Naria from "../images/Naria.svg"
 import Note from "../images/Note.svg"
 import logo from '../images/nav1.svg'
 import logo2 from '../images/nav2.svg'
-import  Kuda  from "../images/kuda.svg"
+import  kuda  from "../images/kuda.svg"
+import Man from "../images/man.svg"
 import  appstore  from "../images/appstore.svg"
 import  google  from "../images/google.svg"
 import  signin  from "../images/signin.svg"
@@ -64,7 +64,7 @@ function HomePage( ) {
                   <div className='flex justify-around  w-[73rem] mt-[6rem]  '>
 
                       <div className='bg-white justify-between ml-[3rem] drop-shadow-xl '> 
-                               <img src={Kuda} alt="barcode" className="  h-[2rem] w-[2rem] mt-[1rem] mx-[2rem] " /> 
+                               <img src={kuda} alt="barcode" className="  h-[2rem] w-[2rem] mt-[1rem] mx-[2rem] " /> 
                                <p className='mt-[2rem] text-[#40196d] mx-[2rem] font-[Mulish] '>Download Kuda on Google Play or the App Store.</p>
                       </div>
 
@@ -89,7 +89,7 @@ function HomePage( ) {
                 <div className="grandparent  w-500 h-600 mx-auto">
                     <div className="parent  w-300 h-300 flex justify-center">
                         <div className="child1  w-100 h-100">
-                            { <img src={Kuda} className=' w-[5rem]' alt= "kuda"></img> }</div>
+                            { <img src={Man} className=' w-[5rem]' alt= "kuda"></img> }</div>
                         <div className="child2 w-100 h-100 p-7">
                             <div className="text-[#614086]"><p>Features</p></div>
                             <div><p>Kuda Card</p></div>
@@ -181,7 +181,7 @@ function HomePage( ) {
                     </div>
                   </footer>
             </main>
-
+        </>
     )
 
 }
